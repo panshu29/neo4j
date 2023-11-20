@@ -21,7 +21,7 @@ package org.neo4j.server.web;
 
 import static org.glassfish.jersey.server.ServerProperties.WADL_FEATURE_DISABLE;
 
-import com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider;
+import com.fasterxml.jackson.jakarta.rs.json.JacksonJsonProvider;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;

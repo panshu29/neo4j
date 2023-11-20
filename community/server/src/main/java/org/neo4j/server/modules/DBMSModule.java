@@ -23,10 +23,11 @@ import static java.util.Collections.singletonList;
 import static org.neo4j.server.configuration.ServerSettings.http_access_control_allow_origin;
 import static org.neo4j.server.web.Injectable.injectable;
 
-import com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider;
 import java.util.Collections;
 import java.util.List;
 import java.util.function.Supplier;
+
+import com.fasterxml.jackson.jakarta.rs.json.JacksonJsonProvider;
 import org.neo4j.configuration.Config;
 import org.neo4j.configuration.GraphDatabaseSettings;
 import org.neo4j.logging.InternalLogProvider;
