@@ -61,6 +61,7 @@ Apache Software License, Version 2.0
   Jackson-JAXRS: base
   Jackson-JAXRS: JSON
   Jakarta Bean Validation API
+  Jakarta Dependency Injection
   Java Concurrency Tools Core Library
   Java Native Access
   Javassist
@@ -134,8 +135,6 @@ Eclipse Public License v2.0
   HK2 API module
   HK2 Implementation Utilities
   Jakarta Annotations API
-  jakarta.ws.rs-api
-  javax.inject:1 as OSGi bundle
   jersey-container-servlet
   jersey-container-servlet-core
   jersey-core-client
@@ -148,8 +147,6 @@ GNU General Public License, version 2 with the Classpath Exception
   HK2 API module
   HK2 Implementation Utilities
   Jakarta Annotations API
-  jakarta.ws.rs-api
-  javax.inject:1 as OSGi bundle
   jersey-container-servlet
   jersey-container-servlet-core
   jersey-core-client
@@ -208,14 +205,6 @@ ServiceLocator Default Implementation
 fastinfoset
   Apache Software License, Version 2.0
   Eclipse Distribution License - v 1.0
-
-jakarta.ws.rs-api
-  Eclipse Public License v2.0
-  GNU General Public License, version 2 with the Classpath Exception
-
-javax.inject:1 as OSGi bundle
-  Eclipse Public License v2.0
-  GNU General Public License, version 2 with the Classpath Exception
 
 jersey-container-servlet
   Apache Software License, Version 2.0
